@@ -17,7 +17,7 @@ Diophantine use the functions of two other projects:
 
 Example:
 
-    $ go run github.com/teal-finance/diophantine/cmd -list 0.770507 -farey -phil
+    $ go run github.com/teal-finance/diophantine/cmd@latest -list 0.770507 -farey -phil
 
     List approximated fractions using the Farey series by Bodo
     #0	    770507 / 1000000     0
