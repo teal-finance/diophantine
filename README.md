@@ -57,3 +57,10 @@ If you have some suggestions, or need a new feature,
 please contact us, using the [issue tracking](https://github.com/teal-finance/diophantine/issues),
 or at Teal.Finance[at]pm.me or at [@TealFinance](https://twitter.com/TealFinance).
 Feel free to propose a [Pull Request](https://github.com/teal-finance/diophantine/pulls).
+
+## See also
+
+Some online tools to approximate fractions:
+
+- <https://oss.sheetjs.com/frac/>
+- <https://www.johndcook.com/rational_approximation.html>
