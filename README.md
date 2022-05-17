@@ -1,4 +1,4 @@
-# Diophantine
+# 🏛️ Diophantine
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/teal-finance/diophantine.svg "Go documentation for Diophantine")](https://pkg.go.dev/github.com/teal-finance/diophantine)
 
@@ -13,7 +13,7 @@ Diophantine use the functions of two other projects:
 - [github.com/bodokaiser/approx](https://github.com/bodokaiser/approx)
 - [github.com/pnelson/fraction](https://github.com/pnelson/fraction)
 
-## CLI
+## 🧑‍💻 CLI
 
 Example:
 
@@ -47,11 +47,13 @@ Example:
     #10         10 / 13          0.001
     #11          7 / 9           0.007
 
-## Library
+## 📚 Library
 
 Diophantine can also be used as a library.
 
-## Alternative tools
+See <https://pkg.go.dev/github.com/teal-finance/diophantine>.
+
+## 🛠️ Alternative tools
 
 Some online tools to approximate fractions:
 
