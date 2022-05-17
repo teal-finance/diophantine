@@ -1,15 +1,6 @@
-// #region <editor-fold desc="Preamble">
 // Copyright (c) 2022 Teal.Finance contributors
-//
-// This file is part of Diophantine, a free software
-// under the terms of the GNU Lesser General Public License
-// either version 2.1 or any later version, at the licensee’s option.
-// SPDX-License-Identifier: LGPL-2.1-or-later
-//
-// Diophantine is distributed WITHOUT ANY WARRANTY.
-// For more details, see the LICENSE file (alongside the source files)
-// or online at <https://www.gnu.org/licenses/lgpl-3.0.html>
-// #endregion </editor-fold>
+// This file is part of Diophantine under the MIT License.
+// SPDX-License-Identifier: MIT
 
 // Package main provides a command line tool to
 // approximate a real number by a fraction of two rational numbers,
