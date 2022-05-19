@@ -10,7 +10,7 @@
 //
 // Example:
 //
-//    go run github.com/teal-finance/diophantine/cmd -list 0.770507 -farey -phil
+//    go run github.com/teal-finance/diophantine/cmd@latest -list 0.770507 -farey -phil
 //
 package main
 
@@ -42,13 +42,13 @@ func main() {
 	}
 
 	if *farey {
-		print("List approximated fractions using the Farey series by Bodo\n")
+		print("\n"+"Approximated fractions using the Farey series by Bodo\n")
 		f := diophantine.Approximate(x)
 		printResults(x, f)
 	}
 
 	if *phil {
-		print("List approximated fractions using the Phil's implementation\n")
+		print("\n"+"Approximated fractions using the Phil's implementation\n")
 		f := diophantine.ApproximatePhil(x)
 		printResults(x, f)
 	}
@@ -60,7 +60,7 @@ func printResults(x float64, fractions []diophantine.Fraction) {
 		if e < 0 {
 			e = -e
 		}
-		fmt.Printf("#%d\t%10v / %-10v  %.1g", i, f.Num, f.Den, e)
+		fmt.Printf("#%2d\t%10v / %-10v  %.1g", i, f.Num, f.Den, e)
 
 		if isPowerOfTwo(f.Num) {
 			print("\tNumerator is power of two")
