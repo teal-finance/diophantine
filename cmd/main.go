@@ -10,8 +10,7 @@
 //
 // Example:
 //
-//    go run github.com/teal-finance/diophantine/cmd@latest -list 0.770507 -farey -phil
-//
+//	go run github.com/teal-finance/diophantine/cmd@latest -list 0.770507 -farey -phil
 package main
 
 import (
@@ -42,13 +41,13 @@ func main() {
 	}
 
 	if *farey {
-		print("\n"+"Approximated fractions using the Farey series by Bodo\n")
+		print("\n" + "Approximated fractions using the Farey series by Bodo\n")
 		f := diophantine.Approximate(x)
 		printResults(x, f)
 	}
 
 	if *phil {
-		print("\n"+"Approximated fractions using the Phil's implementation\n")
+		print("\n" + "Approximated fractions using the Phil's implementation\n")
 		f := diophantine.ApproximatePhil(x)
 		printResults(x, f)
 	}
